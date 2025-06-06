@@ -1,0 +1,97 @@
+/* Navbar rosa */
+.mi-navbar {
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  height: 79px;
+  top: 0;
+  z-index: 2000;
+}
+
+/* Contenedor */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  height: 79px;
+}
+
+/* Menú principal */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 20px 15px; /* espacio interno para altura */
+  display: flex;
+  height: 79px;
+  align-items: center; /* centra verticalmente texto y flecha */
+  margin: 0; /* sacá márgenes */
+}
+
+
+/* Dropdown base */
+.nav-item {
+  position: relative;
+  display: inline-block;  /* Para que el hover funcione en todo el li */
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0;
+  z-index: 1000; /* para que esté encima */
+  min-width: 150px;
+}
+.nav-item:hover > .dropdown-menu {
+  display: block;
+}
+
+
+/* Ítems del dropdown */
+.dropdown-item {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.con-flecha::after {
+  content: "›";           /* Flecha apuntando a la derecha */
+  font-size: 1.5em;
+  margin-bottom: 2.5px;
+  margin-left: 0.4em;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+/* Cuando el dropdown está visible (hover sobre .nav-item), rota la flecha hacia abajo */
+.nav-item:hover .con-flecha::after {
+  transform: rotate(90deg);
+}
+
+.logo {
+  height: 79px;
+  display: flex;
+  align-items: center;
+  margin-left: 120px; /* separa un poco a la izquierda */
+  margin-right: 40px;
+}
+.logo img {
+  height: 20px; /* tamaño del logo */
+  align-self: center;
+}
