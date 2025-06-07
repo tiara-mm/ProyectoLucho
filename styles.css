@@ -95,3 +95,7 @@
   height: 20px; /* tamaño del logo */
   align-self: center;
 }
+
+.carousel {
+  margin: 120px;
+} 
