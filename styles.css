@@ -95,3 +95,52 @@
   height: 20px; /* tamaño del logo */
   align-self: center;
 }
+
+
+.novedades {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 100px 20px;
+  background-color:  #fff8f0;
+  gap: 20px;
+}
+
+.novedades-box {
+  position: relative;
+  width: 400px;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.text-overlay {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+.text-overlay h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #c44c4c;
+}
+
+.text-overlay p {
+  font-size: 14px;
+  color: #333;
+}
+
+.text-overlay a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: underline;
+}
+
+
+#test:hover{
+  transform: scale(1.1)
+}
