@@ -99,21 +99,29 @@
 
 .novedades {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 100px 20px;
-  background-color:  #fff8f0;
-  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
 }
+
+.novedades h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #c44c4c;
+}
+
 
 .novedades-box {
   position: relative;
-  width: 400px;
-  height: 700px;
+  width: 500px;
+  height: 500px;
   background-size: cover;
   background-position: center;
   border-radius: 15px;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .text-overlay {
