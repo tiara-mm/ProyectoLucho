@@ -96,6 +96,120 @@
   align-self: center;
 }
 
+
+.novedades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.novedades h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #c44c4c;
+}
+
+
+.novedades-box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.text-overlay {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+.text-overlay h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #c44c4c;
+}
+
+.text-overlay p {
+  font-size: 14px;
+  color: #333;
+}
+
+.text-overlay a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: underline;
+}
+
+
+#test:hover{
+  transform: scale(1.1)
+}
+
+
+.novedades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.novedades h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #c44c4c;
+}
+
+
+.novedades-box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.text-overlay {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+.text-overlay h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #c44c4c;
+}
+
+.text-overlay p {
+  font-size: 14px;
+  color: #333;
+}
+
+.text-overlay a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: underline;
+}
+
+
+#test:hover{
+  transform: scale(1.1)
+}
+
 .carousel {
   margin: 120px;
 } 
